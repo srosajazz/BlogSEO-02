@@ -25,9 +25,7 @@ exports.signup = (req, res) => {
           error: err,
         });
       }
-      // res.json({
-      //     user: success
-      // });
+
       res.json({
         message: 'Signup success! Please signin.',
       });
